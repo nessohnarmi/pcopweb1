@@ -1,51 +1,49 @@
-<?php include 'include/header.php' ; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="pcopweb1/admin/login-style.css" rel="stylesheet">
+  <title>login page </title>
+</head>
+<body>
+ <center>
 
-<div class="page-wrapper">
-   
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-        
-           <h1>Login Page</h1><hr><br><br>
-      
-    <div class="container-fluid">
-     
-            <div class="container">
-              <div class="row">
-                <div class="col-md-5">
-                    <form action="login_process.php" method="POST">
-                          <div class="mb-3">
-                                <label for="" class="form-label"><b>Email</b></label>
-                                <input type="text"
-                                  class="form-control" name="email" id="" aria-describedby="helpId" placeholder="Enter your email address">
-                          </div>
+<main>
+<h1 class="m-0 text-primary" style="font-size:20px;"><b>pcop</b></h1>
 
-                          <div class="mb-3">
-                              <label for="" class="form-label"><b>Password</b></label>
-                              <input type="text"
-                                class="form-control" name="password" id="" aria-describedby="helpId" placeholder="Enter the password">
-                          </div>
-
-                          <button type="submit" class="btn btn-success"><b>Submit</b></button>
-                  
-                    </form>
-                </div>
-              </div>
-           </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <form action="login_process.php" method="POST">
+          <div class="mb-3">
+            <label for="" class="form-label">Email</label>
+            <input type="text"
+              class="form-control" name="email" aria-describedby="helpId" placeholder="Enter your email address">
+          </div><br>
+          <div class="mb-3">
+            <label for="" class="form-label">Password</label>
+            <input type="text"
+              class="form-control" name="password" aria-describedby="helpId" placeholder="Enter the password">
+          </div>  <br>
+          <div class="md-3">
+          <button type="submit" class="btn btn-primary">login</button>
+          </div>
+         
+          </form>
       </div>
-
-
-            
-        </div>
+    </div>
   </div>
+  
+
+
+</main>
 
     
-</div>
+</center>
 
-
-<?php include 'include/footer.php' ; ?>
-
-
-
-
-
-
+  
+  
+</body>
+</html>

@@ -26,7 +26,7 @@
                         
                                
                                     <img  src="images/image16.jpeg" alt="img" width= "250px"; height="250px"><br>
-                                    <h4><b>Pritilata Waddedar</b></h4>
+                                    <center><h5><b>Pritilata Waddedar</b></h5></center>
                                 
                     </div>
                     <div class="col-md-9">
@@ -66,7 +66,7 @@ Pritilata joined a revolutionary group headed by Surya Sen. She is known for lea
                         
                                
                                     <img  src="images/image15.jpeg" alt="img" width= "250px"; height="250px">
-                                    <h4><b>Master The Surya</b></h4> 
+                                  <center> <h5><b>Master The Surya Sen </b></h5> </center> 
                                 
                     </div>
                    
