@@ -2,17 +2,22 @@
 
 include 'include/connection.php';
 
-$id         = $_POST['id'];
-$name       = $_POST['name'];
-$email      = $_POST['email'];
-$password   = $_POST['password'];
-$mobile_no  = $_POST['mobile_no'];
+$id        = $_POST['id'];
+$title      = $_POST['name'];
 
-$sql = "UPDATE users SET name='$name', email='$email', password='$password', mobile_no='$mobile_no' WHERE id='$id'";
+$image      = $_FILES['image']['name'];
+$target     ="images/".basename($image);
+
+
+
+$sql = "UPDATE sliders SET title='$title', image='$image' WHERE id='$id'";
 
 
 $result = $db->query($sql);
 
 if($result){
-   header('Location:slider.php');
+
+   if(move_uploaded_file($_FILES['image']['tmp_name'], $target)){
+      header('Location:slider_users.php');
+  }
 }
