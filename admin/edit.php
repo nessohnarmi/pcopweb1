@@ -37,7 +37,7 @@
         <!-- ============================================================== -->
             <div class="row">
               <div class="col-md-6">
-                 <h1>Edit Page</h1><hr>
+               
                     <form action="update-registration.php" method="POST">
                             <input type="hidden" name="id" value="<?php echo $id; ?>">
                         <p>Name : <input name="name" type="text" value="<?php echo $data['name'] ; ?>" class="form-control" placeholder="Enter your name"></p>

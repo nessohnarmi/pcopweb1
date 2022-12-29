@@ -4,10 +4,10 @@
     include 'include/header.php' ; 
 
     $id = $_GET['id'] ;
-    $sql = "SELECT * FROM users WHERE id='$id'";
+    $sql = "SELECT * FROM sliders WHERE id='$id'";
     $result = $db->query($sql);
     $data = $result->fetch_assoc();
-    //var_dump($data);
+   
 ?>
 
 
@@ -37,13 +37,12 @@
         <!-- ============================================================== -->
             <div class="row">
               <div class="col-md-6">
-                 <h1>Edit Page</h1><hr>
-                    <form action="update-slider.php" method="POST">
+               
+                    <form action="update-slider.php" method="POST" enctype="multipart/form-data">
                             <input type="hidden" name="id" value="<?php echo $id; ?>">
-                        <p>Name : <input name="name" type="text" value="<?php echo $data['name'] ; ?>" class="form-control" placeholder="Enter your name"></p>
-                        <p>Email : <input name="email" type="email"  value="<?php echo $data['email'] ; ?>" class="form-control" placeholder="Enter your email" required></p>
-                        <p>Password: <input name="password" type="password" value="<?php echo $data['password'] ; ?>" class="form-control" placeholder="Enter the password" required></p>
-                        <p>Mobile No : <input name="mobile_no" value="<?php echo $data['mobile_no'] ; ?>" type="number" placeholder="Enter your mobile no" class="form-control"></p>
+                        <p>Title :<input name="name" type="text" value="<?php echo $data['title'] ; ?>" class="form-control" placeholder="Enter your title"></p>
+                        <p>Image : <input type="file"  name="image" id="image"  value="<?php echo $data['image'] ; ?>" class="form-control" ></p>
+                        
                         <button type="submit" class="btn btn-success">Submit</button>
                         <button type="reset" class="btn btn-danger">Reset</button>
                     </form>

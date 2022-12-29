@@ -3,10 +3,10 @@ include 'include/connection.php';
 
 $id = $_GET['id'] ;
 
-$sql = "DELETE FROM users WHERE id='$id'";
+$sql = "DELETE FROM sliders WHERE id='$id'";
 
 $result = $db->query($sql);
 
 if($result)
-    header('Location:registration.php');
+    header('Location:slider_users.php');
 
