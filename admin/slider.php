@@ -11,7 +11,7 @@
         <h1><b>slider Page</b></h1><hr>
         <form action="slider_insert.php" method="POST"  enctype="multipart/form-data">
             <p><b>Title</b> : <input name="name" type="text" class="form-control" placeholder="Enter your title"></p>      
-            <p><b>Image</b> : <input type="file" value=""  name="image" id="image" ></p><br>
+            <p><b>Image</b> : <input type="file" value=""  name="image" id="image"  class="form-control" placeholder="Enter Image"/></p><br>
             <button type="submit" class="btn btn-success">Submit</button>
             <button type="reset" class="btn btn-danger">Reset</button>
         </form>
