@@ -1,6 +1,6 @@
 <?php include 'include/header.php' ;
 include 'include/connection.php';  
-$sql = "SELECT * FROM users";
+$sql = "SELECT * FROM abouts";
 $result = $db->query($sql);
   ?>
 
@@ -13,7 +13,7 @@ $result = $db->query($sql);
     <div class="page-breadcrumb bg-white">
         <div class="row align-items-center">
             <div class="col-md-12">
-                <h3 class="page-title">Registration page</h3>
+                <h3 class="page-title">about Users page</h3>
             </div>
         </div>
         <!-- /.col-lg-12 -->
@@ -31,27 +31,26 @@ $result = $db->query($sql);
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <table class="table table-striped table-bordered table-hover">
-                    <thead>
-                        <th><b>ID</b></th>
-                        <th><b>Name</b></th>
-                        <th><b>Email </b></th>
-                        <th><b>Password</b></th>
-                        <th><b>Mobile No</b> </th>
-                        <th><b>Action</b> </th>
+                <thead>
+                        <th><b>	Id</b></th>
+                        <th><b>Title</b></th>
+                        <th><b>HIstory</b></th>
+                        <th><b>Image</b></th>
+                        <th><b>Action</b></th>
                     </thead>
                     <tbody>
                     <?php while($row = $result->fetch_assoc()): ?>
                       <tr>
                        
                             <td><?php echo $row['id'] ; ?></td>
-                            <td><?php echo $row['name'] ; ?></td>
-                            <td><?php echo $row['email'] ; ?></td>
-                            <td><?php echo $row['password'] ; ?></td>
-                            <td><?php echo $row['mobile_no'] ; ?></td>
+                            <td><?php echo $row['title'] ; ?></td>
+                            <td><?php echo $row['history'] ; ?></td>
+                            <td><?php echo $row['image'] ; ?></td>
+                        
                         <td>
-                            <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
+                            <a href="edit_about.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
                        
-                            <a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
+                            <a href="delete_about.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
                         </td>
                      </tr>
                         <?php endwhile; ?>

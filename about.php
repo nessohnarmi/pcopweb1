@@ -33,9 +33,7 @@
                         <div class="jobplacement_partner  text-center">
                             <br><br>
                            
-                            <p><h6>Pritilata Waddedar (5 May 1911 – 24 September 1932)[1][2] was an Indian revolutionary nationalist from the Indian subcontinent who was influential in the Indian independence movement.[3][4] After completing her education in Chittagong and Dhaka, she attended Bethune College in Kolkata. She graduated in philosophy with distinction and became a school teacher. She is praised as "Bengal's first woman martyr".[5][6]
-
-Pritilata joined a revolutionary group headed by Surya Sen. She is known for leading fifteen revolutionaries in the 1932 armed attack[7] on the Pahartali European Club,[8][9] during which one person was killed and eleven injured. The revolutionaries torched the club and were later caught by the colonial police. To escape arrest, Pritilata committed suicide by cyanide.[10]</h6></p>
+                            <p><h6>Pritilata was born in a middle-class Vaidya Brahmin family on 5 May 1911 in Dhalghat village in Patiya upazila of Chittagong (now in Bangladesh).She was a Bengali revolutionary nationalist. After completing her education in Chittagong, she attended the Bethune College in Calcutta. Pritilata graduated in Philosophy with distinction.After a brief stint as a school teacher, Pritilata joined a revolutionary group headed by Surya Sen. She led a 15 man team of revolutionaries in a 1932 attack on the Pahartali European Club, which had a sign board that read "Dogs and Indians not allowed". The revolutionaries torched the club and were later caught by the British police. To avoid getting arrested, Pritilata consumed cyanide and died .</h6></p>
                         
                                                        
                         </div>
