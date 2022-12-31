@@ -28,9 +28,9 @@
 
                             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                                 <div class="navbar-nav ml-auto py-0">
-                                    <a href="index.php" class="nav-item nav-link active"><b>Home</b></a>
+                                    <a href="index.php" class="nav-item nav-link "><b>Home</b></a>
                                     <a href="about.php" class="nav-item nav-link"><b>About</b></a>  
-                                    <a href="institute.php" class="nav-item nav-link active"><b>Institute</b></a>
+                                    <a href="institute.php" class="nav-item nav-link "><b>Institute</b></a>
                                     <a href="outsourcisng.php" class="nav-item nav-link"><b>Outsourcisng</b></a>                              
                                     <a href="registration.php" class="nav-item nav-link"><b>Registration</b></a>
                                     
